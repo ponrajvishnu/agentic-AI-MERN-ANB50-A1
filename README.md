@@ -4,13 +4,11 @@ A simple, responsive restaurant menu page built with **HTML5** and **CSS3**. Thi
 
 ## Features
 
-- Header with the restaurant name, a tagline, and a navigation bar (Menu, About, Contact)
+- Header with the restaurant name, and a navigation bar (Menu, About, Contact)
 - Three menu categories: **Starters**, **Main Course**, and **Desserts**
 - Three items in each category, shown as cards with a name, description, and price
 - "About Us" section with the restaurant's story
 - Footer with the address, opening hours, and copyright text
-- Smooth in-page navigation using anchor links
-- Responsive layout that adapts to smaller screens
 
 ## Project Structure
 
