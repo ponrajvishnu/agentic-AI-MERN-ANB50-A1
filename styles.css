@@ -1,0 +1,135 @@
+/** Common CSS **/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #22302D;
+    background-color: #F3F7F4;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Poppins';
+    line-height: 1.25;
+}
+/** Header Section **/
+.site-header{
+    text-align: center;
+    background-color: #14352F;
+    padding: 48px 20px 0;
+    color: #FFF;
+    border-bottom: 6px solid #E8A317;
+}
+.site-name {
+    font-size: 3rem;
+}
+.tagline {
+    max-width: 480px;
+    margin: 12px auto 32px;
+    font-size: 1.1rem;
+    color: rgb(214, 228, 222);
+}
+.menu-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.menu-links ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+.menu-links ul li a:hover {
+    color: #E8A317;
+}
+
+/** Main Content Section **/
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+main h2.section-heading{
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+main .menu-category {
+    margin-bottom: 48px;
+}
+main .category-heading{
+    font-size: 1.6rem;
+    border-bottom: 2px solid #E8A317;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.menu-items{
+    border: 1px solid rgb(200, 214, 208);
+    padding: 20px 24px;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border-left: 6px solid #E8A317;
+}
+.menu-items:hover {
+    border-left: 6px solid #B3261E;
+}
+.menu-items .item-name {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.menu-items .item-price {
+    font-size: 1.1rem;
+    text-align: right;
+    font-weight: 600;
+    color: #e41313;
+}
+.about-section {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border: 1px solid rgb(200, 214, 208);
+    border-radius: 6px;
+    text-align: center;
+}
+.about-section .about-heading {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.about-section p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+/** Footer-section **/
+.footer-section {
+    text-align: center;
+    border-top: 6px solid #E8A317;
+    background-color: #14352F;
+    color: #FFF;
+    padding: 40px 24px 20px;
+}
+.footer-section h3 {
+    font-size: 1.2rem;
+    color: #E8A317;
+    margin-bottom: 8px;
+}
+.footer-section address {
+    font-style: normal;
+}
+.footer-block {
+    margin-bottom: 24px;
+}
+.footer-section .copyright {
+    border-top: 1px solid rgb(70, 100, 92);
+    padding-top: 15px;
+    font-size: 0.9rem;
+    color: rgb(190, 208, 201);
+}
